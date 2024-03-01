@@ -1,1 +1,194 @@
-
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Diego20051219/Diego-Miranda/blob/main/codigo%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# expresiones boleanas\n",
+        "a = 3\n",
+        "b = 5\n",
+        "print()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "30CqehmpJETf",
+        "outputId": "883f6521-3768-4498-b209-5388dc3e4578"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# operaciones booleanos\n",
+        "a = 2\n",
+        "b = 3\n",
+        "# not\n",
+        "d = not a == b\n",
+        "c = not d\n",
+        "print(d, c)\n",
+        "# and\n",
+        "e = d and not c\n",
+        "print(d, c, e)\n",
+        "# or\n",
+        "e = d or c\n",
+        "print(e)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8mjtIGS-KWwW",
+        "outputId": "bdfc3d8c-d331-4cef-b652-2561e66c1206"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True False\n",
+            "True False True\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# inputs\n",
+        "son las entradas de usuario por consola"
+      ],
+      "metadata": {
+        "id": "YCbuK9c_PUSz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# @title Texto de título predeterminado\n"
+      ],
+      "metadata": {
+        "id": "Hv7KcPcUU1h3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nu1 = int (input(\"ingrese un numero: \"))\n",
+        "nu2 = int (input(\"ingrese otro numero: \"))\n",
+        "nu3 = nu1 + nu2\n",
+        "print(nu3)"
+      ],
+      "metadata": {
+        "id": "rB3lVWwVU-vg",
+        "outputId": "8af51cf2-394a-4df1-935b-d1ca6794ebbe",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese un numero: 5\n",
+            "ingrese otro numero: 3\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Nombre de usuario \")\n",
+        "lastname = input(\" Apellido del usuario \")\n",
+        "fullname = name + \" \" + lastname\n",
+        "print(fullname,\"bienvenido a python\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rYIIOH_3PNbs",
+        "outputId": "00511934-4ad5-43bc-9f4a-6ad8610ae365"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nombre de usuario diego\n",
+            " Apellido del usuario miranda\n",
+            "diego miranda bienvenido a python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sales = float (input(\"ingrese el monto de las ventas: \"))\n",
+        "d = sales * 0.23\n",
+        "print(f\"las utlidades fieron de:  {b}\")\n"
+      ],
+      "metadata": {
+        "id": "h0z1sJJFYVkX",
+        "outputId": "70849a02-cb4f-43ac-9cc6-0746134241c5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese el monto de las ventas: 100000\n",
+            "las utlidades fieron de:  3\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Te damos la bienvenida a Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
